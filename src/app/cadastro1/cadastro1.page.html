@@ -1,0 +1,31 @@
+
+  <ion-toolbar>
+    <button (click)="voltar()"class="back">
+      <img id="ba"src="https://e7.pngegg.com/pngimages/27/441/png-clipart-computer-icons-user-interface-youtube-voltar-text-sign-thumbnail.png" alt="back">
+    </button>
+    <ion-img id="img"src="https://cdn.pixabay.com/photo/2019/04/16/06/46/logo-4131033_640.png"></ion-img>
+  </ion-toolbar>
+
+
+<ion-content>
+  <div class="container">
+    <h1 id="cad"><strong>Cadastre-se aqui</strong></h1>
+    <div id="form">
+      <p>Email</p>
+      <p><input type="text" name="email" id="txte"></p>
+      <p>Senha</p>
+      <p><input type="password" name="senha" id="password"></p>
+      <p><input (click)="cadastrar()"type="button" value="Continuar" id="btn"></p>
+      <p>
+        <button class="bt">
+          <img id="goo"src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png" alt="google">
+          <p id="es">continuar com o google</p>
+        </button>
+      </p>
+      <p>Já tem um cadastro? <span style="color: blue;">Entre</span></p>
+    </div>
+  </div>
+  <footer>
+    &copy;Chrys
+  </footer>
+</ion-content>

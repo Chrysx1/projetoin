@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Badge</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label>Notificações</ion-label>
+    <ion-badge slot="end">150</ion-badge>
+  </ion-item>
+  <ion-item>
+    <ion-label>Usuários</ion-label>
+    <ion-badge slot="end">850</ion-badge>
+  </ion-item>
+  <ion-item>
+    <ion-label>Produtos</ion-label>
+    <ion-badge color="danger">700</ion-badge>
+    <!-- veja que o default da posição é do lado direiro-->
+  </ion-item>
+  <ion-item>
+    <ion-item>Dinamicamente</ion-item>
+  <ion-badge color="dark">{{Notificacoes}}</ion-badge>
+  </ion-item>
+  
+</ion-content>
