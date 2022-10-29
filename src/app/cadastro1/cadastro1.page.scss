@@ -17,24 +17,27 @@
 }
 
 #txte{
-    border-radius: 5px;
+    border-radius: 7px;
     height: 30px;
     width: 250px;
+    border: 2px solid rgba(21, 7, 92, 0.657);
 }
 
 #password{
-    border-radius: 5px;
+    border-radius: 7px;
     height: 30px;
     width: 250px;
+    border: 2px solid rgba(21, 7, 92, 0.657);
 }
 
 #btn{
-    border-radius: 5px;
+    border-radius: 7px;
     height: 35px;
     width: 150px;
     background: blue;
-    color: white;;
+    color: white;
     margin-top: 12px;
+    border: 2px solid rgba(21, 7, 92, 0.657);
 }
 
 #ba{
@@ -55,8 +58,7 @@
 }
 
 .bt{
-    border-style:solid;
-    border-width:medium;
+    border: 1px solid rgba(0, 0, 0, 0.786);
     text-align: center;
     margin-top: 20px;
     border-radius: 7px;

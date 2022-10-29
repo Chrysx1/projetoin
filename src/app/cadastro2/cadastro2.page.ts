@@ -16,4 +16,8 @@ export class Cadastro2Page implements OnInit {
   voltar(){
     this.navCtrl.navigateForward('cadastro1');
   }
+
+  criarConta(){
+    this.navCtrl.navigateForward('vagas');
+  }
 }

@@ -13,3 +13,4 @@ export class VagasPage implements OnInit {
   }
 
 }
+
