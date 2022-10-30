@@ -2,18 +2,20 @@ import { Component, OnInit } from '@angular/core';
 import { NavController } from '@ionic/angular';
 
 @Component({
-  selector: 'app-vagas',
-  templateUrl: './vagas.page.html',
-  styleUrls: ['./vagas.page.scss'],
+  selector: 'app-login',
+  templateUrl: './login.page.html',
+  styleUrls: ['./login.page.scss'],
 })
-export class VagasPage implements OnInit {
+export class LoginPage implements OnInit {
 
   constructor(private navCtrl: NavController) { }
 
   ngOnInit() {
   }
+  entrar(){
+    this.navCtrl.navigateForward('vagas');
+  }
   voltar(){
     this.navCtrl.navigateForward('home');
   }
 }
-

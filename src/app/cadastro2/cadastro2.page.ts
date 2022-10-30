@@ -20,4 +20,5 @@ export class Cadastro2Page implements OnInit {
   criarConta(){
     this.navCtrl.navigateForward('vagas');
   }
+
 }

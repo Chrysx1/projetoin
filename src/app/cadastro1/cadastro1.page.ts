@@ -19,4 +19,8 @@ export class Cadastro1Page implements OnInit {
   voltar(){
     this.navCtrl.navigateForward('home');
   }
+
+  login(){
+    this.navCtrl.navigateForward('login');
+  }
 }

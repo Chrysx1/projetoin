@@ -67,6 +67,10 @@ const routes: Routes = [
     path: 'vagas',
     loadChildren: () => import('./vagas/vagas.module').then( m => m.VagasPageModule)
   },
+  {
+    path: 'login',
+    loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
+  },
   
 ];
 

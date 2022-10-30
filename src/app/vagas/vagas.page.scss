@@ -11,16 +11,18 @@
     position: absolute;
     width: 225px;
     height: 27px;
-    border-radius: 20px;
+    border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.26);
     background: rgba(128, 128, 128, 0.176);
     font-size: 13px;
 }
 
-#pesquisa.placeholder{
-    text-align: center;
-}
+#vh6{
+    background: none;
+    position: relative;
+    right: 10px;
 
+}
 
 #h6{
     margin-left: 15px;

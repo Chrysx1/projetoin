@@ -9,20 +9,24 @@
 
 <ion-content>
   <div class="container">
-    <h1 id="cad"><strong>Cadastre-se aqui</strong></h1>
+    <h1 id="cad"><strong>Entrar</strong></h1>
     <div id="form">
       <p>Email</p>
       <p><input type="text" name="email" id="txte"></p>
       <p>Senha</p>
       <p><input type="password" name="senha" id="password"></p>
-      <p><input (click)="cadastrar()"type="button" value="Continuar" id="btn"></p>
+      <div>
+        <input type = "checkbox" id = "subscribeNews" name = "subscribe" value = "lembrar">
+        <label for = "subscribeNews"> Lembrar de mim </label>
+      </div>
+      <p><input (click)="entrar()"type="button" value="Entrar" id="btn"></p>
       <p>
         <button class="bt">
           <img id="goo" src="../../assets/google.png" alt="google">
           <p id="es">continuar com o google</p>
         </button>
       </p>
-      <p id="temcad">Já tem um cadastro? <button id="login" (click)="login()"><span style="color: blue;">Entre</span></button></p>
+      <p>Não tem cadastro? <span style="color: blue;">Clique aqui</span></p>
     </div>
   </div>
   <footer>
