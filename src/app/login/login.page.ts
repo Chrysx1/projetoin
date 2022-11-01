@@ -18,4 +18,8 @@ export class LoginPage implements OnInit {
   voltar(){
     this.navCtrl.navigateForward('home');
   }
+
+  cadastro(){
+    this.navCtrl.navigateForward('cadastro1');
+  }
 }
