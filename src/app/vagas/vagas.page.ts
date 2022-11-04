@@ -7,6 +7,13 @@ import { NavController } from '@ionic/angular';
   styleUrls: ['./vagas.page.scss'],
 })
 export class VagasPage implements OnInit {
+  isModalOpen: boolean;
+  isModaOpen = false;
+
+  setOpen(isOpen: boolean){
+    this.isModalOpen = isOpen;
+  }
+
 
   constructor(private navCtrl: NavController) { }
 
